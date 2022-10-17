@@ -1,25 +1,35 @@
-# FED3 Time Bins 🐁
+# Pre-Processing of Data from the PhenoSys Touchscreen chamber 🐁
 
 ### Overview
 
-__FED3__
+__PhenoSys Touchscreen Chamber__
 
-FED3 or Feeding Experimentation Device Version 3 is a [home cage feeding device](https://github.com/KravitzLabDevices/FED3), developed by the [Kravitz Lab](https://kravitzlab.com/). <br>
-It is open source and is used for the training of mice in operant tasks. <br>
+The [Touchscreen Chambers](https://www.phenosys.com/wp-content/uploads/2019/12/PhenoSys_Touchscreen_-Paradigms_1911.pdf) from [PhenoSys](https://www.phenosys.com/) contain a pellet dispenser and images/touch screens. 
+These screens light up and need to be pressed in the correct order to receive a pellet as a reward. 
+This apparatus has enabled the measurement of learning over time in novel models of disease in rodents.
+
+<img src="https://user-images.githubusercontent.com/101311642/196097060-99574bb8-9cf9-4a9c-9c21-edfba42db3a5.png" width="300">
 
 __Purpose__
 
-The CSV output from the FED3 devices show the timestamps of each event, like nose pokes or pellet retrievals. This repository :
-* Converts this output into a time binned file. It also adds another sheet with the time stamps of all pellet count changes.
-* Creates a master file that combines all the “Left poke count” columns from the raw FED files into one sheet. It does the same thing for the other column types as well. The columns are then sorted by genotype and treatment. <br>
+The raw CSV output from the Touchscreen Chambers is large (~5 MB) and is highly time-consuming to process and obtain statistics of interest. This repository:
+* Analyses the data from the paradigms GTPT2-5, 2VDLR, 5CSRTT and TUNL.
+* Creates a colour-coded list of all key events in order of time.
+* For each animal, these codes creates statistics about:
+  * Individual sessions
+  * Indvidual sessions split by stimulus durations and inter-trial intervals
+  * Time bins over time
+  * Snipping of videos for each experiment into many session clips
 
 __Preview of the graphical user interfaces__
 
-![image](https://user-images.githubusercontent.com/101311642/195033127-046fec78-24ae-4ab7-b059-f763a19e93b4.png)
+![image](https://user-images.githubusercontent.com/101311642/196102050-8d7635e5-393e-477e-942c-7ce0e00156b4.png)
 
 __Input and output data__
 
-![image](https://user-images.githubusercontent.com/101311642/194794376-e8ae77ac-dbc8-41dc-a1c8-bf0b7ace3f52.png)
+![image](https://user-images.githubusercontent.com/101311642/161454721-6b105f0d-89f3-465c-80c1-d6dc3addc63b.png)
+
+![image](https://user-images.githubusercontent.com/101311642/161454729-8e956896-f9ca-403c-8f6d-c402f6ada5b6.png)
 
 ### Installation
 
