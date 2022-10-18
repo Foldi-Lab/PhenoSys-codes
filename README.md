@@ -72,7 +72,7 @@ python PhenoSys.py
 
 ### Guide
 
-View the guide about [how to analyse your FED data](How_to_use_FED_code.pdf).
+View the guide about [how to analyse your PhenoSys data](How_to_use_PhenoSys_codes.pdf).
 
 <br>
 
