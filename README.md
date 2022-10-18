@@ -19,7 +19,7 @@ The raw CSV output from the Touchscreen Chambers is large (~5 MB) and is highly 
   * Individual sessions
   * Indvidual sessions split by stimulus durations and inter-trial intervals
   * Time bins over time
-  * Snipping of videos for each experiment into many session clips
+  * Snips videos for each experiment into many session clips
 
 __Preview of the graphical user interfaces__
 
@@ -37,33 +37,37 @@ Install [Anaconda Navigator](https://www.anaconda.com/products/distribution). <b
 Open Anaconda Prompt (on Mac open terminal and install X-Code when prompted). <br>
 Download this repository to your home directory by typing in the line below.
 ```
-git clone https://github.com/Andrews-Lab/FED3_time_bins.git
+git clone https://github.com/Foldi-Lab/PhenoSys-codes.git
+```
+If you receive an error about git, install git using the line below, type "Y" when prompted and then re-run the line above.
+```
+conda install -c anaconda git
 ```
 Change the directory to the place where the downloaded folder is. <br>
 ```
-cd FED3_time_bins
+cd PhenoSys-codes
 ```
 
 Create a conda environment and install the dependencies.
 ```
-conda env create -n FTB -f Dependencies.yaml
+conda env create -n PSC -f Dependencies.yaml
 ```
 
 ### Usage
 Open Anaconda Prompt (on Mac open terminal). <br>
 Change the directory to the place where the git clone was made.
 ```
-cd FED3_time_bins
+cd PhenoSys-codes
 ```
 
 Activate the conda environment.
 ```
-conda activate FTB
+conda activate PSC
 ```
 
 Run the codes.
 ```
-python FED.py
+python PhenoSys.py
 ```
 
 ### Guide
@@ -78,9 +82,9 @@ __Author:__ <br>
 [Harry Dempsey](https://github.com/H-Dempsey) (Andrews lab and Foldi lab) <br>
 
 __Credits:__ <br>
-Zane Andrews, Wang Lok So, Lex Kravitz <br>
+Laura Milton, Stephen Power, Claire Foldi, Zane Andrews, Kaixin Huang, Kyna Conn, Sarah Lockie, Karsten Krepinsky <br>
 
 __About the labs:__ <br>
-The [Andrews lab](https://www.monash.edu/discovery-institute/andrews-lab) investigates how the brain senses and responds to hunger. <br>
 The [Foldi lab](https://www.monash.edu/discovery-institute/foldi-lab) investigates the biological underpinnings of anorexia nervosa and feeding disorders. <br>
+The [Andrews lab](https://www.monash.edu/discovery-institute/andrews-lab) investigates how the brain senses and responds to hunger. <br>
 The [Kravitz lab](https://kravitzlab.com/) investigates the function of basal ganglia circuits and how they change in diseases such as obesity, addiction, and depression. <br>
