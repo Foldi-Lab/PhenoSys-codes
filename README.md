@@ -82,7 +82,7 @@ __Author:__ <br>
 [Harry Dempsey](https://github.com/H-Dempsey) (Andrews lab and Foldi lab) <br>
 
 __Credits:__ <br>
-Laura Milton, Stephen Power, Claire Foldi, Zane Andrews, Kaixin Huang, Kyna Conn, Sarah Lockie, Karsten Krepinsky <br>
+Laura Milton, Stephen Power, Claire Foldi, Zane Andrews, Karsten Krepinsky, Sarah Lockie, Kaixin Huang, Kyna Conn, Amelia Trice, Sheida Shadani <br>
 
 __About the labs:__ <br>
 The [Foldi lab](https://www.monash.edu/discovery-institute/foldi-lab) investigates the biological underpinnings of anorexia nervosa and feeding disorders. <br>
