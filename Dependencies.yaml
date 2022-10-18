@@ -10,5 +10,6 @@ dependencies:
     - datetime
     - numpy
     - pandas
+    - Jinja2
     - openpyxl
     - moviepy
