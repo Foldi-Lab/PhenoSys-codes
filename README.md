@@ -1,4 +1,4 @@
-# Pre-Processing of Data from the PhenoSys Touchscreen chamber 🐁
+# Analysis of Data from the PhenoSys Touchscreen chamber 🐁
 
 ### Overview
 
