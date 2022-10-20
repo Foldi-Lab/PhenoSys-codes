@@ -1,4 +1,4 @@
-# Analysis of Data from the PhenoSys Touchscreen chamber 🐁
+# Analysis of Data from the PhenoSys Touchscreen Chamber 🐁
 
 ### Overview
 
