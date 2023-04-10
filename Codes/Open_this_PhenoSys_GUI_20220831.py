@@ -58,6 +58,7 @@ while True:
                        'ITIs and SDs together', 'Video snipping']
     tasks['TUNL'] = ['Organisation', 'Time bins of sessions',
                      'Daily and cumulative time bins', 'Video snipping']
+    tasks['PAL'] = ['Organisation']
     # Create a dictionary for the number of arguments in each corresponding function.
     # 4 refers to types of analysis with 4 function arguments, 5 refers to 5 arguments
     # and V refers to video snipping.
@@ -225,6 +226,7 @@ while True:
     from Code_TUNL import fTUNL
     from Code_TUNL_Time_Bins_of_Sessions import fTUNL_Time_Bins_Sessions
     from Code_TUNL_Time_Bins_Overall import fTUNL_Time_Bins_Overall
+    from Code_PAL import fPAL
     from Code_Video_Snipping import fVideo_Snipping
 
     # Organise the functions for each code by the tasks and types of analysis.
@@ -253,6 +255,7 @@ while True:
                          'Time bins of sessions': fTUNL_Time_Bins_Sessions,
                          'Daily and cumulative time bins': fTUNL_Time_Bins_Overall,
                          'Video snipping': fVideo_Snipping}
+    functions['PAL'] = {'Organisation': fPAL}
 
     # Assign the function arguments to 'variables'.
     if inputs["Analysis"] in arguments['4']:
