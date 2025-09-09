@@ -1,8 +1,10 @@
 name: PhenoSys-codes
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - python=3.7
+  - PySimpleGUI
   - pip
   - pip:
     - tqdm
@@ -12,3 +14,4 @@ dependencies:
     - Jinja2
     - openpyxl
     - moviepy
+
